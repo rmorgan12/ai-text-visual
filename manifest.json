@@ -1,0 +1,56 @@
+{
+  "name": "aiTextSqlRM",
+  "version": "1.0.0",
+  "size": {
+    "width": 1,
+    "height": 1
+  },
+  "mapping": [
+    {
+      "dataSetId": "44970851-a8dc-4dc7-91d0-6bedc3a1c919",
+      "alias": "songs",
+      "fields": [
+        {
+          "alias": "year",
+          "columnName": "Year"
+        },
+        {
+          "alias": "month_of_year",
+          "columnName": "Month of Year"
+        },
+        {
+          "alias": "week_of_year",
+          "columnName": "Week of Year"
+        },
+        {
+          "alias": "weekly_song_rank",
+          "columnName": "Weekly Song Rank"
+        },
+        {
+          "alias": "chart_date",
+          "columnName": "Chart Date"
+        },
+        {
+          "alias": "number_weeks_hot_list",
+          "columnName": "Number of Weeks on Hot 100 List"
+        },
+        {
+          "alias": "artist",
+          "columnName": "Artist"
+        },
+        {
+          "alias": "song_title",
+          "columnName": "Song Title"
+        },
+        {
+          "alias": "peak_hot_position",
+          "columnName": "Peak Hot 100 Position"
+        }
+      ]
+    }
+  ],
+  "fileName": "manifest.json",
+  "id": "32ba6d5d-7050-4b95-8feb-942bf4dab23d",
+  "proxyId": "334618b1-9640-41b6-aeb3-076428ccf2fd",
+  "fullpage": true
+}

@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+}
+
+
+#container,
+#sqlExplanation,
+#dataTable {
+    font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color:#111;
+}
+
+#container{
+    margin-top: 10px;
+}
+#container .badge{
+    font-size: 0.47em;
+    font-weight: normal;
+    line-height: 1.8em;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#container .h3,
+#container .h5{
+    font-weight: 600;
+}
+
+.ace_editor {
+    min-height: 100px;
+    max-height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.sql-buttons{
+    position: absolute;
+    right: 3px;
+    bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sql-buttons .btn{
+    padding: 6px;
+    opacity: 0.7;
+    color: #4F46E5;
+}
+.sql-buttons .btn:hover{
+    opacity: 1;
+}
+.sql-buttons .btn.loading{
+    padding: 0 1px;
+}
+
+#sqlExplanation {
+    text-wrap: wrap;
+}
+
+#explanationBlock #clickExplainMessage{
+    display: none;
+}
+#explanationBlock.empty #clickExplainMessage{
+    display: block;
+}
+#explanationBlock.empty #sqlExplanation{
+    display: none;
+}
+
+
+#myTable_wrapper input,
+#myTable_wrapper select{
+  background-color: #fff;
+}
+
+#informAlert .icon-circle{
+    height: 40px;
+    width: 40px;
+    padding:8px;
+    border-radius: 50%;
+    background-color: #FEE2E2;
+    color: #DC2626;
+}
+#informAlert .button-row{
+    margin: -1rem;
+    margin-top: 0;
+    text-align: end;
+    background-color: #f5f5f5;
+    padding: 10px 24px;
+    border-radius: 0 0 5px 5px;
+}
+
+.bi.md{
+    height: 22px;
+    width: 22px;
+}
+.bi.lg{
+    height: 24px;
+    width: 24px;
+}
+
+
+.tabulator-col-content .tabulator-col-sorter .tabulator-arrow {
+    visibility: hidden;
+}
+
+.tabulator-col-content:hover .tabulator-col-sorter .tabulator-arrow,
+.tabulator-col.tabulator-sortable[aria-sort=ascending] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow,
+.tabulator-col.tabulator-sortable[aria-sort=descending] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow{
+    visibility: visible;
+}
+
+#dataTable {
+    font-size: 14px;
+}
+#dataTable.loading .tabulator-tableholder{
+  opacity: 0.2;  
+}
+#dataTable .tabulator-row{
+    border-bottom: 1px solid #ddd;
+}
+#dataTable .tabulator-row:last-child{
+    border-bottom: none;
+}
+#dataTable .tabulator-row{
+    background-color: inherit;
+}
+#dataTable .tabulator-row:hover{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+#dataTable .tabulator-footer{
+    background-color: #fff;
+    border: none;
+}
+#dataTable .tabulator-footer .tabulator-footer-contents{
+    padding: 5px 0;
+}
+#dataTable .tabulator-footer .tabulator-page{
+    padding: 2px 6px;
+}
+#dataTable .tabulator-col-resize-handle:hover{
+    background-color: #ccc;
+}
+
+#container .text-subtle,
+.text-subtle {
+    color: #666;
+}
+#container .text-subtle-2,
+.text-subtle-2 {
+    color: #888;
+}
